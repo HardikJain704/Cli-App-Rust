@@ -4,9 +4,9 @@ A rust Cli App which stores data i.e id , name , and address which creates a jso
 
  1. Add command to first create a entry and then can automatically creates a exampl.json file
 
- cargo run add -i id -n "name" -a "address"
+ ```cargo run add -i id -n "name" -a "address"```
 
-# example 
+## example 
 
 ``` cargo run add -i 1 -n "Hardik" -a "Bangalore" ```
 
@@ -14,12 +14,12 @@ A rust Cli App which stores data i.e id , name , and address which creates a jso
 
  ``` cargo run fetch --id id ```
  
- # example 
+ ## example 
  ``` cargo run fetch --id 1 ```
 
 3. Delete command to delete the contact details
 
 ``` cargo run delete -m id ```
  
-# example 
+## example 
 ``` cargo run delete -m 1 ```
