@@ -10,7 +10,7 @@ A rust Cli App which stores data i.e id , name , and address which creates a jso
 
 ``` cargo run add -i 1 -n "Hardik" -a "Bangalore" ```
 
-2. fetch command to fetch the details to contacts we have added 
+2. # fetch command to fetch the details to contacts we have added 
 
  ``` cargo run fetch --id id ```
  
